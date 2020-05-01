@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Footer() {
-  return <div>this is the Footer</div>;
+  return (
+    <footer>
+      <small>&copy; Copyright Francis Lin {new Date().getFullYear()}</small>
+    </footer>
+  );
 }
 
 export default Footer;
