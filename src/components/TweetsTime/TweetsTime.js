@@ -13,9 +13,9 @@ function TweetsTime() {
   const filterOptions = createFilterOptions({
     limit: 5,
   });
-  let [displayLocation, setDisplayLocation] = useState('');
-  let [displayDateTime, setDisplayDateTime] = useState('');
-  let [displayTimezone, setDisplayTimezone] = useState('');
+  const [displayLocation, setDisplayLocation] = useState('');
+  const [displayDateTime, setDisplayDateTime] = useState('');
+  const [displayTimezone, setDisplayTimezone] = useState('');
 
   let values = {
     link: '',
