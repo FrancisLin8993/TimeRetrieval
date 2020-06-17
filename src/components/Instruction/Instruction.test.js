@@ -12,6 +12,6 @@ describe('<Instruction />', () => {
   it('render components correctly', () => {
     const wrapper = shallow(<Instruction />);
     expect(wrapper.find('h3')).toHaveLength(1);
-    expect(wrapper.find('p')).toHaveLength(4);
+    expect(wrapper.find('p')).toHaveLength(5);
   });
 });

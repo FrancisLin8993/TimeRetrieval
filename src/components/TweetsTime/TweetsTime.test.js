@@ -13,6 +13,6 @@ describe('<TweetsTime />', () => {
   it('render components correctly', () => {
     const wrapper = shallow(<TweetsTime />);
     expect(wrapper.find(Formik)).toHaveLength(1);
-    expect(wrapper.find('h2')).toHaveLength(1);
+    expect(wrapper.find('h2')).toHaveLength(3);
   });
 });
